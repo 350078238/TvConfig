@@ -5,8 +5,8 @@ server:
 #  hystrix:
 #    enabled: true
 
-#eureka:
-#  client:
-#    register-with-eureka: false
-#    service-url:
-#      defaultZone: http://localhost:7001/eureka/
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
